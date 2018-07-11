@@ -1,10 +1,10 @@
 {
 	"type":"Live2D Model Setting",
-	"name":"赫斯提亚",
-	"model":"赫斯提亚.moc",
+	"name":"Hestia",
+	"model":"Hestia.moc",
 	"textures":
 	[
-		"赫斯提亚.1024/texture_00.png"
+		"Hestia.1024/texture_00.png"
 	],
 	"expressions":
 	[
