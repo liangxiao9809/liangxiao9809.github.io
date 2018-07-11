@@ -42,27 +42,27 @@ LAppLive2DManager.prototype.changeModel = function(gl)
                 this.releaseModel(1, gl);
                 this.releaseModel(0, gl);
                 this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_HARU);
+                this.models[0].load(gl, LAppDefine.MODEL_LISA);
                 break;
             case 1: 
                 this.releaseModel(0, gl);
                 this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_SHIZUKU);
+                this.models[0].load(gl, LAppDefine.MODEL_LISA);
                 break;
             case 2: 
                 this.releaseModel(0, gl);
                 this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_WANKO);            
+                this.models[0].load(gl, LAppDefine.MODEL_LISA);            
                 break;
             case 3: 
                 this.releaseModel(0, gl);
                 
                 // 一体目のモデル
                 this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_HARU_A, function() {
+                this.models[0].load(gl, LAppDefine.MODEL_LISA, function() {
                     // 二体目のモデル
                     thisRef.createModel();
-                    thisRef.models[1].load(gl, LAppDefine.MODEL_HARU_B);
+                    thisRef.models[1].load(gl, LAppDefine.MODEL_LISA);
                 });
                 
                 break;
