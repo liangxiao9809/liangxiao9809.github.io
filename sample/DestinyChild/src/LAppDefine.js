@@ -29,8 +29,8 @@ var LAppDefine = {
     
     BACK_IMAGE_NAME : "assets/image/back_class_normal.png",
 
-    
-    MODEL_LISA : "assets/live2d/lisa/lisa.model.json",
+    //火系
+    MODEL_赫斯提亚 : "assets/live2d/火/赫斯提亚/赫斯提亚.model.json",
     
     
     MOTION_GROUP_IDLE : "idle", 

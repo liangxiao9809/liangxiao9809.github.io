@@ -7,6 +7,8 @@
 		"lisa.1024/texture_00.png",
 		"lisa.1024/texture_01.png"
 	],
+	"physics":"haru.physics.json",
+	"pose":"haru.pose.json",
 	"expressions":
 	[
 		{"name":"f01","file":"expressions/f01.exp.json"},

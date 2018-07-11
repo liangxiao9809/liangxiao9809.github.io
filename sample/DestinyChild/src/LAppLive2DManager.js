@@ -36,39 +36,11 @@ LAppLive2DManager.prototype.changeModel = function(gl)
         var no = parseInt(this.count % 4);
 
         var thisRef = this;
-        switch (no)
-        {
-            case 0: 
-                this.releaseModel(1, gl);
-                this.releaseModel(0, gl);
-                this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_LISA);
-                break;
-            case 1: 
-                this.releaseModel(0, gl);
-                this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_LISA);
-                break;
-            case 2: 
-                this.releaseModel(0, gl);
-                this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_LISA);            
-                break;
-            case 3: 
-                this.releaseModel(0, gl);
-                
-                // 一体目のモデル
-                this.createModel();
-                this.models[0].load(gl, LAppDefine.MODEL_LISA, function() {
-                    // 二体目のモデル
-                    thisRef.createModel();
-                    thisRef.models[1].load(gl, LAppDefine.MODEL_LISA);
-                });
-                
-                break;
-            default:
-                break;
-        }
+		this.releaseModel(1, gl);
+        this.releaseModel(0, gl);
+        this.createModel();
+        this.models[0].load(gl, LAppDefine.MODEL_赫斯提亚);
+        
     }
 };
 
