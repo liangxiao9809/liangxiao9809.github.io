@@ -6,7 +6,7 @@ window.onerror = function(msg, url, line, col, error) {
     l2dError(errmsg);
 }
 
-function sampleApp1()
+function dc()
 {
     this.platform = window.navigator.platform.toLowerCase();
     
