@@ -62,10 +62,7 @@ function initL2dCanvas(canvasId)
         
     }
     
-    btnChangeModel = document.getElementById("btnChange");
-    btnChangeModel.addEventListener("click", function(e) {
-        changeModel();
-    });
+
 }
 
 
