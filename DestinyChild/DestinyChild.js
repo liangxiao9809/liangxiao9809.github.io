@@ -166,14 +166,6 @@ function draw()
         {
             model.update();
             model.draw(this.gl);
-            
-            if (!this.isModelShown && i == this.live2DMgr.numModels()-1) {
-                this.isModelShown = !this.isModelShown;
-                var btnChange = document.getElementById("btnChange");
-                btnChange.textContent = "Change Model";
-                btnChange.removeAttribute("disabled");
-                btnChange.setAttribute("class", "active");
-            }
         }
     }
     
