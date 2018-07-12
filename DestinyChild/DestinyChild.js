@@ -131,7 +131,7 @@ function startDraw() {
                     window.mozRequestAnimationFrame ||
                     window.webkitRequestAnimationFrame || 
                     window.msRequestAnimationFrame;
-
+ 
                 
                 requestAnimationFrame(tick ,this.canvas);   
         })();
