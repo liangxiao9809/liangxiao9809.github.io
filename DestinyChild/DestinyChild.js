@@ -183,10 +183,6 @@ function draw()
 
 function changeModel()
 {
-    var btnChange = document.getElementById("btnChange");
-    btnChange.setAttribute("disabled","disabled");
-    btnChange.setAttribute("class", "inactive");
-    btnChange.textContent = "Now Loading...";
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
