@@ -228,3 +228,13 @@ Dino.style="A";
 Dino.moc="childs/assets/live2d/Dino/Dino/000000.model.json";
 Dino.moc_s="childs/assets/live2d/Dino/Dino_s/000000.model.json";
 map.set("Dino",Dino);
+
+var m057=new Object();
+m057.id="m057";
+m057.name="m057";
+m057.nature="water";
+m057.style="J";
+m057.moc="childs/assets/live2d/m057/m057_01/000000.model.json";
+m057.moc_s="childs/assets/live2d/m057/m057_02/000000.model.json";
+m057.moc_o="childs/assets/live2d/m057/m057_00/000000.model.json";
+map.set("m057",m057);

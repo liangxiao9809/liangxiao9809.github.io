@@ -164,3 +164,13 @@ Change_wood.style="A";
 Change_wood.moc="childs/assets/live2d/Change_wood/Change_wood/000000.model.json";
 Change_wood.moc_s="childs/assets/live2d/Change_wood/Change_wood_s/000000.model.json";
 map.set("Change_wood",Change_wood);
+
+var m056=new Object();
+m056.id="m056";
+m056.name="m056";
+m056.nature="wood";
+m056.style="A";
+m056.moc="childs/assets/live2d/m056/m056_01/000000.model.json";
+m056.moc_s="childs/assets/live2d/m056/m056_02/000000.model.json";
+m056.moc_o="childs/assets/live2d/m056/m056_00/000000.model.json";
+map.set("m056",m056);
