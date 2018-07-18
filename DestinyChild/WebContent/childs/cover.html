@@ -16,11 +16,19 @@
 
 <!-- Custom styles for this template -->
 <link href="../css/cover.css" rel="stylesheet">
+<style>
+.col-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 10.666667%;
+}
+</style>
 </head>
 
-<body class="text-center">
+<body class="text-center" onload="dc()">
 
-	<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+	<div>
 		<header class="masthead mb-auto">
 			<div class="inner">
 				<!--           <h3 class="masthead-brand">Cover</h3> -->
@@ -33,46 +41,16 @@
 		</header>
 
 		<main role="main">
-		<div class="row featurette">
-			<div class="col-md-8">
-				<!-- 赫斯提亚  -->
-				<div class="tzylkd"
-					style="float: left; text-align: center; background: rgba(240, 240, 240, 0.8); border-radius: 10px;; padding: 5px;">
-					<table style="width: 100%">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row" id="fire"></div>
+				<div class="row" id="water"></div>
+				<div class="row" id="wood"></div>
+				<div class="row" id="dark"></div>
+				<div class="row" id="light"></div>
+				<div class="row" id="unknown"></div>
 
-						<tbody>
-							<tr>
-								<td style="height: 100px">
-									<div style="position: relative; display: inline-block;">
-										<div class="center">
-											<div class="floatnone">
-												<a href="javascript:dc('Hestia')"
-													title="赫斯提亚"><img alt="赫斯提亚头像.png"
-													src="http://p4.qhimg.com/dr/90__/t012503765b1f63d0cc.png"
-													width="90" height="89" data-file-name="赫斯提亚头像.png"
-													data-file-width="128" data-file-height="126"></a>
-											</div>
-										</div>
-										<div style="position: absolute; bottom: 5px; right: 5px;">
-											<p>
-												<a href="javascript:dc('Hestia')"
-													title="赫斯提亚"><img alt="攻击.png"
-													src="http://p6.qhimg.com/dr/20__/t01f6cdae736321782e.png"
-													width="20" height="20" data-file-name="攻击.png"
-													data-file-width="78" data-file-height="78"></a>
-											</p>
-										</div>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<td style="height: 20px"><a
-									href="javascript:dc('Hestia')" title="赫斯提亚">赫斯提亚</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+				
 
 
 
@@ -87,12 +65,17 @@
 
 
 			</div>
-			<div class="col-md-4">
-				<canvas id="glcanvas" width="400" height="600">
+			
+			<div class="col-md-1" id="skinChoose">
+			</div>
+			
+			<div class="col-md-5">
+				<canvas id="glcanvas" width="600" height="800">
             </canvas>
 			</div>
 		</div>
 		<div></div>
+		<div id="myconsole" style="color:#000">---- Log ----</div>
 		</main>
 
 		<footer class="mastfoot mt-auto">
@@ -132,5 +115,12 @@
 	<script src="src/LAppModel.js"></script>
 	<script src="src/LAppLive2DManager.js"></script>
 	<script src="DestinyChild.js"></script>
+	<script src="src/ChildsDefine_dark.js"></script>
+	<script src="src/ChildsDefine_fire.js"></script>
+	<script src="src/ChildsDefine_light.js"></script>
+	<script src="src/ChildsDefine_water.js"></script>
+	<script src="src/ChildsDefine_wood.js"></script>
+	<script src="src/ChildsDefine_others.js"></script>
+	<script src="src/ChildsListInit.js"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Daphneth",
+	"model":"00000002.moc",
+	"textures":
+	[
+		"00000004.png"
+	],
+	"expressions":
+	[
+	 {"name":"f01","file":"00000003.dat"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.4,
+		"width":1.2
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"attack":
+		[
+			{ "file":"00000000.txt"}
+		],
+		"idle":
+		[
+			{"file":"00000001.txt" ,"fade_in":0, "fade_out":0}
+		]
+	}
+}

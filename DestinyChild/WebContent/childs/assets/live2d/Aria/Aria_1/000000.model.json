@@ -1,0 +1,47 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Aria",
+	"model":"000000.moc",
+	"textures":
+	[
+		"000000.1024/texture_00.png"
+	],
+	"expressions":
+	[
+	 {"name":"f01","file":"expressions/f01.exp.json"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.8,
+		"width":1.5
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/c045_10_idle.mtn" ,"fade_in":0, "fade_out":0}
+		],
+		"idle_ls":
+		[
+			{"file":"motions/c045_10_idle_ls.mtn" ,"fade_in":0, "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/c045_10_hit.mtn"}
+		],
+		"attack":
+		[
+			{ "file":"motions/c045_10_attack.mtn"}
+		],
+		"hit":
+		[
+			{ "file":"motions/c045_10_hit.mtn"}
+		]
+	}
+}

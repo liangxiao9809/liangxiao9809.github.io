@@ -1,9 +1,9 @@
 var LAppDefine = {
     
     
-    DEBUG_LOG : false,
-    DEBUG_MOUSE_LOG : false, 
-    // DEBUG_DRAW_HIT_AREA : false, 
+    DEBUG_LOG : true,
+    DEBUG_MOUSE_LOG : true, 
+    DEBUG_DRAW_HIT_AREA : true, 
     // DEBUG_DRAW_ALPHA_MODEL : false, 
     
     
@@ -30,7 +30,7 @@ var LAppDefine = {
     BACK_IMAGE_NAME : "assets/image/back_class_normal.png",
 
     //fire
-    MODEL_ACTIVE : "assets/live2d/fire/Hestia/Hestia.model.json",
+    MODEL_ACTIVE : "",
     
     
     MOTION_GROUP_IDLE : "idle", 
@@ -39,7 +39,12 @@ var LAppDefine = {
     MOTION_GROUP_PINCH_IN : "pinch_in", 
     MOTION_GROUP_PINCH_OUT : "pinch_out", 
     MOTION_GROUP_SHAKE : "shake", 
+    MOTION_GROUP_ATTACK : "attack",
+    MOTION_GROUP_HIT : "hit",
+    MOTION_GROUP_IDLE_LS : "idle_ls", 
+    MOTION_GROUP_BANNER : "banner", 
 
+    MOTION_GROUP_ACTIVE : "idle", 
     
     HIT_AREA_HEAD : "head",
     HIT_AREA_BODY : "body"

@@ -117,29 +117,95 @@ LAppLive2DManager.prototype.tapEvent = function(x, y)
 {    
     if (LAppDefine.DEBUG_LOG)
         console.log("tapEvent view x:" + x + " y:" + y);
-
     for (var i = 0; i < this.models.length; i++)
     {
-
-        if (this.models[i].hitTest(LAppDefine.HIT_AREA_HEAD, x, y))
-        {
-            
-            if (LAppDefine.DEBUG_LOG)
-                console.log("Tap face.");
-
-            this.models[i].setRandomExpression();
-        }
-        else if (this.models[i].hitTest(LAppDefine.HIT_AREA_BODY, x, y))
-        {
-            
-            if (LAppDefine.DEBUG_LOG)
-                console.log("Tap body." + " models[" + i + "]");
-
-            this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY,
-                                             LAppDefine.PRIORITY_NORMAL);
-        }
+    	if(this.models[i].modelSetting.json.motions.tap_body)
+    	this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY,
+                LAppDefine.PRIORITY_FORCE);
+    	
+//        if (this.models[i].hitTest(LAppDefine.HIT_AREA_HEAD, x, y))
+//        {
+//            
+//            if (LAppDefine.DEBUG_LOG)
+//                console.log("Tap face.");
+//
+//            this.models[i].setRandomExpression();
+//        }
+//        else if (this.models[i].hitTest(LAppDefine.HIT_AREA_BODY, x, y))
+//        {
+//            
+//            if (LAppDefine.DEBUG_LOG)
+//                console.log("Tap body." + " models[" + i + "]");
+//
+//            this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY,
+//                                             LAppDefine.PRIORITY_NORMAL);
+//        }
     }
 
     return true;
 };
 
+LAppLive2DManager.prototype.hitEvent = function(x, y)
+{    
+    for (var i = 0; i < this.models.length; i++)
+    {
+    	if(this.models[i].modelSetting.json.motions.hit)
+    	this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_HIT,
+                LAppDefine.PRIORITY_FORCE);
+    }
+
+    return true;
+};
+
+LAppLive2DManager.prototype.attackEvent = function(x, y)
+{    
+    for (var i = 0; i < this.models.length; i++)
+    {
+    	if(this.models[i].modelSetting.json.motions.attack)
+    	this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_ATTACK,
+                LAppDefine.PRIORITY_FORCE);
+    }
+
+    return true;
+};
+
+LAppLive2DManager.prototype.idleLsEvent = function(x, y)
+{    
+    for (var i = 0; i < this.models.length; i++)
+    {
+    	if(this.models[i].modelSetting.json.motions.idle_ls){
+    		LAppDefine.MOTION_GROUP_ACTIVE = LAppDefine.MOTION_GROUP_IDLE_LS;
+    		this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_IDLE_LS,
+                    LAppDefine.PRIORITY_FORCE);
+    	}   	
+    }
+
+    return true;
+};
+
+LAppLive2DManager.prototype.idleEvent = function(x, y)
+{    
+    for (var i = 0; i < this.models.length; i++)
+    {
+    	if(this.models[i].modelSetting.json.motions.idle){
+    		LAppDefine.MOTION_GROUP_ACTIVE = LAppDefine.MOTION_GROUP_IDLE;
+    		this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_IDLE,
+                    LAppDefine.PRIORITY_FORCE);
+    	}   	
+    }
+
+    return true;
+};
+
+LAppLive2DManager.prototype.bannerEvent = function(x, y)
+{    
+    for (var i = 0; i < this.models.length; i++)
+    {
+    	if(this.models[i].modelSetting.json.motions.banner){
+    		this.models[i].startRandomMotion(LAppDefine.MOTION_GROUP_BANNER,
+                    LAppDefine.PRIORITY_FORCE);
+    	}   	
+    }
+
+    return true;
+};

@@ -1,0 +1,44 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Mars",
+	"model":"00000004.moc",
+	"textures":
+	[
+		"00000006.png",
+		"00000007.png"
+	],
+	"expressions":
+	[
+	 {"name":"f01","file":"00000005.dat"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.8,
+		"width":1.4
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"attack":
+		[
+			{ "file":"00000000.txt"}
+		],
+		"hit":
+		[
+			{ "file":"00000002.txt"}
+		],
+		"idle":
+		[
+			{"file":"00000003.txt" ,"fade_in":0, "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"00000002.txt"}
+		]
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Hestia",
+	"model":"000000.moc",
+	"textures":
+	[
+		"000000.1024/texture_00.png"
+	],
+	"expressions":
+	[
+	 {"name":"f01","file":"expressions/f01.exp.json"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":2.2,
+		"width":1.8
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/c047_02_idle.mtn" ,"fade_in":0, "fade_out":0}
+		],
+		"tap_body":
+		[
+			{ "file":"motions/c047_02_hit.mtn"}
+		],
+		"attack":
+		[
+			{ "file":"motions/c047_02_attack.mtn"}
+		],
+		"hit":
+		[
+			{ "file":"motions/c047_02_hit.mtn"}
+		]
+	}
+}

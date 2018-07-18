@@ -30,7 +30,7 @@ function dc(obj)
     
     this.isModelShown = false;
     
-    LAppDefine.MODEL_ACTIVE = "assets/live2d/"+ obj +"/"+obj+".model.json"
+   
     
     initL2dCanvas("glcanvas");
     
@@ -50,7 +50,7 @@ function initL2dCanvas(canvasId)
         this.canvas.addEventListener("click", mouseEvent, false);
         
         this.canvas.addEventListener("mousedown", mouseEvent, false);
-        this.canvas.addEventListener("mousemove", mouseEvent, false);
+        //this.canvas.addEventListener("mousemove", mouseEvent, false);
         
         this.canvas.addEventListener("mouseup", mouseEvent, false);
         this.canvas.addEventListener("mouseout", mouseEvent, false);
@@ -115,7 +115,7 @@ function init()
 	
 	this.gl.clearColor(0.0, 0.0, 0.0, 0.0);
 
-    changeModel();
+    //changeModel();
     
     startDraw();
 }
@@ -174,8 +174,9 @@ function draw()
 }
 
 
-function changeModel()
+function changeModel(obj)
 {
+	//LAppDefine.MODEL_ACTIVE = "assets/live2d/"+ obj +"/"+obj+".model.json";
     this.isModelShown = false;
     
     this.live2DMgr.reloadFlg = true;
@@ -279,11 +280,11 @@ function mouseEvent(e)
     
     if (e.type == "mousewheel") {
 
-        if (e.clientX < 0 || thisRef.canvas.clientWidth < e.clientX || 
-        e.clientY < 0 || thisRef.canvas.clientHeight < e.clientY)
-        {
-            return;
-        }
+//        if (e.clientX < 0 || thisRef.canvas.clientWidth < e.clientX || 
+//        e.clientY < 0 || thisRef.canvas.clientHeight < e.clientY)
+//        {
+//            return;
+//        }
         
         if (e.wheelDelta > 0) modelScaling(1.1); 
         else modelScaling(0.9); 

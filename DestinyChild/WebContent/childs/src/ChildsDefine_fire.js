@@ -1,0 +1,140 @@
+//火
+var Hestia=new Object();
+Hestia.id="Hestia";
+Hestia.name="赫斯提亚";
+Hestia.nature="fire";
+Hestia.style="A";
+Hestia.moc="childs/assets/live2d/Hestia/Hestia/000000.model.json";
+Hestia.moc_s="childs/assets/live2d/Hestia/Hestia_s/000000.model.json";
+Hestia.moc_o="childs/assets/live2d/Hestia/Hestia_o/000000.model.json";
+map.set("Hestia",Hestia);
+
+var Maira=new Object();
+Maira.id="Maira";
+Maira.name="玛依拉";
+Maira.nature="fire";
+Maira.style="S";
+Maira.moc="childs/assets/live2d/Maira/Maira/000000.model.json";
+Maira.moc_s="childs/assets/live2d/Maira/Maira_s/000000.model.json";
+Maira.moc_o="childs/assets/live2d/Maira/Maira_o/000000.model.json";
+map.set("Maira",Maira);
+
+var Hermes=new Object();
+Hermes.id="Hermes";
+Hermes.name="爱马仕";
+Hermes.nature="fire";
+Hermes.style="S";
+Hermes.moc="childs/assets/live2d/Hermes/Hermes/000000.model.json";
+Hermes.moc_s="childs/assets/live2d/Hermes/Hermes_s/000000.model.json";
+Hermes.moc_o="childs/assets/live2d/Hermes/Hermes_o/000000.model.json";
+Hermes.moc_1="childs/assets/live2d/Hermes/Hermes_1/000000.model.json";
+map.set("Hermes",Hermes);
+
+var Dinasy=new Object();
+Dinasy.id="Dinasy";
+Dinasy.name="狄娜希";
+Dinasy.nature="fire";
+Dinasy.style="D";
+Dinasy.moc="childs/assets/live2d/Dinasy/Dinasy/000000.model.json";
+Dinasy.moc_s="childs/assets/live2d/Dinasy/Dinasy_s/000000.model.json";
+Dinasy.moc_o="childs/assets/live2d/Dinasy/Dinasy_o/000000.model.json";
+Dinasy.moc_1="childs/assets/live2d/Dinasy/Dinasy_1/000000.model.json";
+map.set("Dinasy",Dinasy);
+
+var Uruhr=new Object();
+Uruhr.id="Uruhr";
+Uruhr.name="欧若拉";
+Uruhr.nature="fire";
+Uruhr.style="H";
+Uruhr.moc="childs/assets/live2d/Uruhr/Uruhr/000000.model.json";
+Uruhr.moc_s="childs/assets/live2d/Uruhr/Uruhr_s/000000.model.json";
+Uruhr.moc_o="childs/assets/live2d/Uruhr/Uruhr_o/000000.model.json";
+Uruhr.moc_1="childs/assets/live2d/Uruhr/Uruhr_1/000000.model.json";
+map.set("Uruhr",Uruhr);
+
+var Jupiter=new Object();
+Jupiter.id="Jupiter";
+Jupiter.name="朱庇特";
+Jupiter.nature="fire";
+Jupiter.style="J";
+Jupiter.moc="childs/assets/live2d/Jupiter/Jupiter/000000.model.json";
+Jupiter.moc_s="childs/assets/live2d/Jupiter/Jupiter_s/000000.model.json";
+Jupiter.moc_o="childs/assets/live2d/Jupiter/Jupiter_o/000000.model.json";
+Jupiter.moc_1="childs/assets/live2d/Jupiter/Jupiter_1/000000.model.json";
+map.set("Jupiter",Jupiter);
+
+var Maeve=new Object();
+Maeve.id="Maeve";
+Maeve.name="梅芙";
+Maeve.nature="fire";
+Maeve.style="A";
+Maeve.moc="childs/assets/live2d/Maeve/Maeve/000000.model.json";
+Maeve.moc_s="childs/assets/live2d/Maeve/Maeve_s/000000.model.json";
+Maeve.moc_o="childs/assets/live2d/Maeve/Maeve_o/000000.model.json";
+Maeve.moc_1="childs/assets/live2d/Maeve/Maeve_1/000000.model.json";
+map.set("Maeve",Maeve);
+
+var Morgan=new Object();
+Morgan.id="Morgan";
+Morgan.name="摩根";
+Morgan.nature="fire";
+Morgan.style="A";
+Morgan.moc="childs/assets/live2d/Morgan/Morgan/000000.model.json";
+Morgan.moc_s="childs/assets/live2d/Morgan/Morgan_s/000000.model.json";
+Morgan.moc_o="childs/assets/live2d/Morgan/Morgan_o/000000.model.json";
+Morgan.moc_1="childs/assets/live2d/Morgan/Morgan_1/000000.model.json";
+Morgan.moc_2="childs/assets/live2d/Morgan/Morgan_2/000000.model.json";
+Morgan.moc_3="childs/assets/live2d/Morgan/Morgan_3/000000.model.json";
+map.set("Morgan",Morgan);
+
+var Booldora=new Object();
+Booldora.id="Booldora";
+Booldora.name="布尔多雷";
+Booldora.nature="fire";
+Booldora.style="S";
+Booldora.moc="childs/assets/live2d/Booldora/Booldora/000000.model.json";
+Booldora.moc_s="childs/assets/live2d/Booldora/Booldora_s/000000.model.json";
+Booldora.moc_o="childs/assets/live2d/Booldora/Booldora_o/000000.model.json";
+map.set("Booldora",Booldora);
+
+var RedQueen=new Object();
+RedQueen.id="RedQueen";
+RedQueen.name="红后";
+RedQueen.nature="fire";
+RedQueen.style="S";
+RedQueen.moc="childs/assets/live2d/RedQueen/RedQueen/000000.model.json";
+RedQueen.moc_s="childs/assets/live2d/RedQueen/RedQueen_s/000000.model.json";
+RedQueen.moc_o="childs/assets/live2d/RedQueen/RedQueen_o/000000.model.json";
+map.set("RedQueen",RedQueen);
+
+var Tirubin=new Object();
+Tirubin.id="Tirubin";
+Tirubin.name="提鲁彬";
+Tirubin.nature="fire";
+Tirubin.style="A";
+Tirubin.moc="childs/assets/live2d/Tirubin/Tirubin/000000.model.json";
+Tirubin.moc_s="childs/assets/live2d/Tirubin/Tirubin_s/000000.model.json";
+Tirubin.moc_o="childs/assets/live2d/Tirubin/Tirubin_o/000000.model.json";
+map.set("Tirubin",Tirubin);
+
+var Saladin=new Object();
+Saladin.id="Saladin";
+Saladin.name="萨拉丁";
+Saladin.nature="fire";
+Saladin.style="A";
+Saladin.moc="childs/assets/live2d/Saladin/Saladin/000000.model.json";
+Saladin.moc_s="childs/assets/live2d/Saladin/Saladin_s/000000.model.json";
+Saladin.moc_o="childs/assets/live2d/Saladin/Saladin_o/000000.model.json";
+Saladin.moc_1="childs/assets/live2d/Saladin/Saladin_1/000000.model.json";
+map.set("Saladin",Saladin);
+
+var Tamilder=new Object();
+Tamilder.id="Tamilder";
+Tamilder.name="德米泰尔";
+Tamilder.nature="fire";
+Tamilder.style="J";
+Tamilder.moc="childs/assets/live2d/Tamilder/Tamilder/000000.model.json";
+Tamilder.moc_s="childs/assets/live2d/Tamilder/Tamilder_s/000000.model.json";
+Tamilder.moc_1="childs/assets/live2d/Tamilder/Tamilder_1/000000.model.json";
+Tamilder.moc_2="childs/assets/live2d/Tamilder/Tamilder_2/000000.model.json";
+map.set("Tamilder",Tamilder);

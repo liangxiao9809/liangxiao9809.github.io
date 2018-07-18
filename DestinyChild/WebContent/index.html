@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
+<title>Cover Template for Bootstrap</title>
+
+<!-- Bootstrap core CSS -->
+<link href="lib/bootstrap-4.0.0-dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/cover.css" rel="stylesheet">
+<style>
+.col-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 10.666667%;
+}
+</style>
+</head>
+
+<body class="text-center" onload="dc()">
+
+	<div>
+		<header class="masthead mb-auto">
+			<div class="inner">
+				<!--           <h3 class="masthead-brand">Cover</h3> -->
+				<!--           <nav class="nav nav-masthead justify-content-center"> -->
+				<!--             <a class="nav-link active" href="#">Home</a> -->
+				<!--             <a class="nav-link" href="#">Features</a> -->
+				<!--             <a class="nav-link" href="#">Contact</a> -->
+				<!--           </nav> -->
+			</div>
+		</header>
+
+		<main role="main">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="row" id="fire"></div>
+				<div class="row" id="water"></div>
+				<div class="row" id="wood"></div>
+				<div class="row" id="dark"></div>
+				<div class="row" id="light"></div>
+				<div class="row" id="unknown"></div>
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+			
+			<div class="col-md-1" id="skinChoose">
+			</div>
+			
+			<div class="col-md-5">
+				<canvas id="glcanvas" width="600" height="800">
+            </canvas>
+			</div>
+		</div>
+		<div></div>
+		<div id="myconsole" style="color:#000">---- Log ----</div>
+		</main>
+
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+				<!--<p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>-->
+			</div>
+		</footer>
+	</div>
+
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+	</script>
+	<script src="lib/bootstrap-4.0.0-dist/assets/js/vendor/popper.min.js"></script>
+	<script src="lib/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+
+	<!-- Live2D Library -->
+	<script src="lib/live2d.min.js"></script>
+
+	<!-- Live2D Framework -->
+	<script src="framework/Live2DFramework.js"></script>
+
+	<!-- User's Script -->
+	<script src="childs/src/utils/MatrixStack.js"></script>
+	<script src="childs/src/utils/ModelSettingJson.js"></script>
+	<script src="childs/src/PlatformManager.js"></script>
+	<script src="childs/src/LAppDefine.js"></script>
+	<script src="childs/src/LAppModel.js"></script>
+	<script src="childs/src/LAppLive2DManager.js"></script>
+	<script src="childs/DestinyChild.js"></script>
+	<script src="childs/src/ChildsDefine_dark.js"></script>
+	<script src="childs/src/ChildsDefine_fire.js"></script>
+	<script src="childs/src/ChildsDefine_light.js"></script>
+	<script src="childs/src/ChildsDefine_water.js"></script>
+	<script src="childs/src/ChildsDefine_wood.js"></script>
+	<script src="childs/src/ChildsDefine_others.js"></script>
+	<script src="childs/src/ChildsListInit.js"></script>
+</body>
+</html>
