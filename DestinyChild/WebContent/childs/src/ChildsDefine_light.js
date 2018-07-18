@@ -157,3 +157,13 @@ Hindley.style="S";
 Hindley.moc="childs/assets/live2d/Hindley/Hindley/000000.model.json";
 Hindley.moc_s="childs/assets/live2d/Hindley/Hindley_s/000000.model.json";
 map.set("Hindley",Hindley);
+
+var m224=new Object();
+m224.id="m224";
+m224.name="m224";
+m224.nature="light";
+m224.style="J";
+m224.moc="childs/assets/live2d/m224/m224_01/000000.model.json";
+m224.moc_s="childs/assets/live2d/m224/m224_02/000000.model.json";
+m224.moc_1="childs/assets/live2d/m224/m224_89/000000.model.json";
+map.set("m224",m224);
