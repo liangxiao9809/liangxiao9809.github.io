@@ -1,4 +1,3 @@
-var map = new Map(); 
 
 //暗
 var Medusa=new Object();
