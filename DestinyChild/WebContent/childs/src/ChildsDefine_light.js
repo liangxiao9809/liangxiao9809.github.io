@@ -167,3 +167,25 @@ m224.moc="childs/assets/live2d/m224/m224_01/000000.model.json";
 m224.moc_s="childs/assets/live2d/m224/m224_02/000000.model.json";
 m224.moc_1="childs/assets/live2d/m224/m224_89/000000.model.json";
 map.set("m224",m224);
+
+var m077=new Object();
+m077.id="m077";
+m077.name="m077";
+m077.nature="light";
+m077.style="J";
+m077.moc="childs/assets/live2d/m077/m077_01/000000.model.json";
+m077.moc_s="childs/assets/live2d/m077/m077_02/000000.model.json";
+m077.moc_o="childs/assets/live2d/m077/m077_00/000000.model.json";
+m077.moc_1="childs/assets/live2d/m077/m077_10/000000.model.json";
+map.set("m077",m077);
+
+var m038=new Object();
+m038.id="m038";
+m038.name="m038";
+m038.nature="light";
+m038.style="D";
+m038.moc="childs/assets/live2d/m038/m038_01/000000.model.json";
+m038.moc_s="childs/assets/live2d/m038/m038_02/000000.model.json";
+m038.moc_o="childs/assets/live2d/m038/m038_00/000000.model.json";
+m038.moc_1="childs/assets/live2d/m038/m038_10/000000.model.json";
+map.set("m038",m038);

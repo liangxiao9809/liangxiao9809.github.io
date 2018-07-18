@@ -138,3 +138,25 @@ Tamilder.moc_s="childs/assets/live2d/Tamilder/Tamilder_s/000000.model.json";
 Tamilder.moc_1="childs/assets/live2d/Tamilder/Tamilder_1/000000.model.json";
 Tamilder.moc_2="childs/assets/live2d/Tamilder/Tamilder_2/000000.model.json";
 map.set("Tamilder",Tamilder);
+
+var Tamilder=new Object();
+Tamilder.id="Tamilder";
+Tamilder.name="德米泰尔";
+Tamilder.nature="fire";
+Tamilder.style="J";
+Tamilder.moc="childs/assets/live2d/Tamilder/Tamilder/000000.model.json";
+Tamilder.moc_s="childs/assets/live2d/Tamilder/Tamilder_s/000000.model.json";
+Tamilder.moc_1="childs/assets/live2d/Tamilder/Tamilder_1/000000.model.json";
+Tamilder.moc_2="childs/assets/live2d/Tamilder/Tamilder_2/000000.model.json";
+map.set("Tamilder",Tamilder);
+
+var m051=new Object();
+m051.id="m051";
+m051.name="哈迪斯";
+m051.nature="fire";
+m051.style="D";
+m051.moc="childs/assets/live2d/m051/m051_10/000000.model.json";
+//m051.moc_s="childs/assets/live2d/m051/m051_02/000000.model.json";
+m051.moc_o="childs/assets/live2d/m051/m051_00/000000.model.json";
+//m051.moc_1="childs/assets/live2d/m051/m051_10/000000.model.json";
+map.set("m051",m051);
