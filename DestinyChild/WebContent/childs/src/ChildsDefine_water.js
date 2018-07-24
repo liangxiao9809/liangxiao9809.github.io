@@ -60,6 +60,7 @@ Change.style="S";
 Change.moc="childs/assets/live2d/Change/Change/000000.model.json";
 Change.moc_s="childs/assets/live2d/Change/Change_s/000000.model.json";
 Change.moc_o="childs/assets/live2d/Change/Change_o/000000.model.json";
+Change.moc_w="childs/assets/live2d/Change/Change_w/000000.model.json";
 Change.moc_1="childs/assets/live2d/Change/Change_1/000000.model.json";
 map.set("Change",Change);
 
@@ -181,6 +182,7 @@ Anemone.style="S";
 Anemone.moc="childs/assets/live2d/Anemone/Anemone/000000.model.json";
 Anemone.moc_s="childs/assets/live2d/Anemone/Anemone_s/000000.model.json";
 Anemone.moc_1="childs/assets/live2d/Anemone/Anemone_1/000000.model.json";
+Anemone.moc_w="childs/assets/live2d/Anemone/Anemone_w/000000.model.json";
 map.set("Anemone",Anemone);
 
 var Seton=new Object();

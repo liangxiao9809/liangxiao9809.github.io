@@ -1,0 +1,40 @@
+{
+	"type":"Live2D Model Setting",
+	"name":"Anemone",
+	"model":"00000000.moc",
+	"textures":
+	[
+		"00000007.png"
+	],
+	"physics":"00000002.dat",
+	"expressions":
+	[
+	 {"name":"f01","file":"00000001.dat"}
+	],
+	"layout":
+	{
+		"center_x":0,
+		"y":1.8,
+		"width":1.4
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.HEAD"},
+		{"name":"body", "id":"D_REF.BODY"}
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{ "file":"00000003.txt"}
+		],
+		"hit":
+		[
+			{ "file":"00000006.txt"}
+		],
+		"tap_body":
+		[
+			{ "file":"00000006.txt"}
+		]
+	}
+}

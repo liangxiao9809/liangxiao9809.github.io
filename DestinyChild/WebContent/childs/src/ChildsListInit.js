@@ -70,6 +70,9 @@ map.forEach(function(element, index, array){
 		if(element.moc_5){
 			chooseSkinView += '<br/><button class="btn btn-sm btn-outline-secondary skin" moc="moc_5">皮肤5</button>';
 		}
+		if(element.moc_w){
+			chooseSkinView += '<br/><button class="btn btn-sm btn-outline-secondary skin" moc="moc_w">温泉</button>';
+		}
 		chooseSkinView += '<div id="actionBtn"><br/><br/>'
 		chooseSkinView += '<br/><button class="btn btn-sm btn-outline-secondary" onclick="thisRef.live2DMgr.idleEvent(0, 0);">空闲1</button>';
 		chooseSkinView += '<br/><button class="btn btn-sm btn-outline-secondary" onclick="thisRef.live2DMgr.idleLsEvent(0, 0);">空闲2</button>';
