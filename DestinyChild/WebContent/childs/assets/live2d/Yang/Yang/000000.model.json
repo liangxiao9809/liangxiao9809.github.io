@@ -4,7 +4,8 @@
 	"model":"00000003.moc",
 	"textures":
 	[
-		"00000005.png"
+		"00000005.png",
+		"00000006.png"
 	],
 	"expressions":
 	[
