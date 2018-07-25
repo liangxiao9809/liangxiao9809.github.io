@@ -108,6 +108,7 @@ Hilde.style="A";
 Hilde.moc="childs/assets/live2d/Hilde/Hilde/000000.model.json";
 Hilde.moc_s="childs/assets/live2d/Hilde/Hilde_s/000000.model.json";
 Hilde.moc_o="childs/assets/live2d/Hilde/Hilde_o/000000.model.json";
+Hilde.moc_w="childs/assets/live2d/Hilde/Hilde_w/000000.model.json";
 map.set("Hilde",Hilde);
 
 var Luna=new Object();

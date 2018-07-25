@@ -125,6 +125,7 @@ Rita.moc="childs/assets/live2d/Rita/Rita/000000.model.json";
 Rita.moc_s="childs/assets/live2d/Rita/Rita_s/000000.model.json";
 Rita.moc_1="childs/assets/live2d/Rita/Rita_1/000000.model.json";
 Rita.moc_2="childs/assets/live2d/Rita/Rita_2/000000.model.json";
+Rita.moc_w="childs/assets/live2d/Rita/Rita_w/000000.model.json";
 map.set("Rita",Rita);
 
 var Cobaba=new Object();
@@ -146,6 +147,7 @@ Khepry.moc="childs/assets/live2d/Khepry/Khepry/000000.model.json";
 Khepry.moc_s="childs/assets/live2d/Khepry/Khepry_s/000000.model.json";
 Khepry.moc_o="childs/assets/live2d/Khepry/Khepry_o/000000.model.json";
 Khepry.moc_1="childs/assets/live2d/Khepry/Khepry_1/000000.model.json";
+Khepry.moc_w="childs/assets/live2d/Khepry/Khepry_w/000000.model.json";
 map.set("Khepry",Khepry);
 
 var Yang=new Object();
@@ -156,6 +158,7 @@ Yang.style="A";
 Yang.moc="childs/assets/live2d/Yang/Yang/000000.model.json";
 Yang.moc_s="childs/assets/live2d/Yang/Yang_s/000000.model.json";
 Yang.moc_o="childs/assets/live2d/Yang/Yang_o/000000.model.json";
+Yang.moc_w="childs/assets/live2d/Yang/Yang_w/000000.model.json";
 map.set("Yang",Yang);
 
 var Mars=new Object();

@@ -85,6 +85,7 @@ Morgan.moc_o="childs/assets/live2d/Morgan/Morgan_o/000000.model.json";
 Morgan.moc_1="childs/assets/live2d/Morgan/Morgan_1/000000.model.json";
 Morgan.moc_2="childs/assets/live2d/Morgan/Morgan_2/000000.model.json";
 Morgan.moc_3="childs/assets/live2d/Morgan/Morgan_3/000000.model.json";
+Morgan.moc_w="childs/assets/live2d/Morgan/Morgan_w/000000.model.json";
 map.set("Morgan",Morgan);
 
 var Booldora=new Object();
@@ -95,6 +96,7 @@ Booldora.style="S";
 Booldora.moc="childs/assets/live2d/Booldora/Booldora/000000.model.json";
 Booldora.moc_s="childs/assets/live2d/Booldora/Booldora_s/000000.model.json";
 Booldora.moc_o="childs/assets/live2d/Booldora/Booldora_o/000000.model.json";
+Booldora.moc_w="childs/assets/live2d/Booldora/Booldora_w/000000.model.json";
 map.set("Booldora",Booldora);
 
 var RedQueen=new Object();
@@ -115,6 +117,7 @@ Tirubin.style="A";
 Tirubin.moc="childs/assets/live2d/Tirubin/Tirubin/000000.model.json";
 Tirubin.moc_s="childs/assets/live2d/Tirubin/Tirubin_s/000000.model.json";
 Tirubin.moc_o="childs/assets/live2d/Tirubin/Tirubin_o/000000.model.json";
+Tirubin.moc_w="childs/assets/live2d/Tirubin/Tirubin_w/000000.model.json";
 map.set("Tirubin",Tirubin);
 
 var Saladin=new Object();

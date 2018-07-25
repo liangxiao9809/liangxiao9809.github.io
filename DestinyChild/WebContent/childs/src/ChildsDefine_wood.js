@@ -114,6 +114,7 @@ Nicole.moc_s="childs/assets/live2d/Nicole/Nicole_s/000000.model.json";
 Nicole.moc_o="childs/assets/live2d/Nicole/Nicole_o/000000.model.json";
 Nicole.moc_1="childs/assets/live2d/Nicole/Nicole_1/000000.model.json";
 Nicole.moc_2="childs/assets/live2d/Nicole/Nicole_2/000000.model.json";
+Nicole.moc_w="childs/assets/live2d/Nicole/Nicole_w/000000.model.json";
 map.set("Nicole",Nicole);
 
 var Daphneth=new Object();
@@ -124,6 +125,7 @@ Daphneth.style="A";
 Daphneth.moc="childs/assets/live2d/Daphneth/Daphneth/000000.model.json";
 Daphneth.moc_s="childs/assets/live2d/Daphneth/Daphneth_s/000000.model.json";
 Daphneth.moc_o="childs/assets/live2d/Daphneth/Daphneth_o/000000.model.json";
+Daphneth.moc_w="childs/assets/live2d/Daphneth/Daphneth_w/000000.model.json";
 map.set("Daphneth",Daphneth);
 
 var Luynn=new Object();
@@ -144,6 +146,7 @@ Bartoli.style="S";
 Bartoli.moc="childs/assets/live2d/Bartoli/Bartoli/000000.model.json";
 Bartoli.moc_s="childs/assets/live2d/Bartoli/Bartoli_s/000000.model.json";
 Bartoli.moc_o="childs/assets/live2d/Bartoli/Bartoli_o/000000.model.json";
+Bartoli.moc_w="childs/assets/live2d/Bartoli/Bartoli_w/000000.model.json";
 map.set("Bartoli",Bartoli);
 
 var Mona=new Object();
@@ -154,6 +157,7 @@ Mona.style="S";
 Mona.moc="childs/assets/live2d/Mona/Mona/000000.model.json";
 Mona.moc_s="childs/assets/live2d/Mona/Mona_s/000000.model.json";
 Mona.moc_1="childs/assets/live2d/Mona/Mona_1/000000.model.json";
+Mona.moc_w="childs/assets/live2d/Mona/Mona_w/000000.model.json";
 map.set("Mona",Mona);
 
 var Change_wood=new Object();

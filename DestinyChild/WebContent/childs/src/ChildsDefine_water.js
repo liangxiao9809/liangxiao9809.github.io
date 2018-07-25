@@ -121,6 +121,7 @@ Milina.style="J";
 Milina.moc="childs/assets/live2d/Milina/Milina/000000.model.json";
 Milina.moc_s="childs/assets/live2d/Milina/Milina_s/000000.model.json";
 Milina.moc_o="childs/assets/live2d/Milina/Milina_o/000000.model.json";
+Milina.moc_w="childs/assets/live2d/Milina/Milina_w/000000.model.json";
 map.set("Milina",Milina);
 
 var Santa=new Object();
@@ -151,6 +152,7 @@ Barry.style="A";
 Barry.moc="childs/assets/live2d/Barry/Barry/000000.model.json";
 Barry.moc_s="childs/assets/live2d/Barry/Barry_s/000000.model.json";
 Barry.moc_1="childs/assets/live2d/Barry/Barry_1/000000.model.json";
+Barry.moc_w="childs/assets/live2d/Barry/Barry_w/000000.model.json";
 map.set("Barry",Barry);
 
 var Willow=new Object();
